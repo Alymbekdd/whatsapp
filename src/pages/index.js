@@ -56,7 +56,7 @@ export default function Home() {
             <h2 className={styles.title}>Alymbek WhatsApp</h2>
             <ul className={styles.ul} ref={autoScrol}>
                     {todoArry.map(todo => (
-                        <li className={styles.li} key={todo.id}><span>{todo.task}</span></li>
+                        <li className={styles.li} key={todo}><span>{todo.task}</span></li>
                     ))}
                 </ul>
 
